@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0004EFF7-08DB-C11B-586D-7432AFAAD80A}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SandBox",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ROSIntegration",
+			"Enabled": true
+		}
+	]
+}

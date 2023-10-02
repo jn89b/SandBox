@@ -1,0 +1,50 @@
+# Ignore build and temp folders
+Binaries/
+Build/
+Intermediate/
+Packaged/
+Saved/
+DerivedDataCache/
+
+#don't include the plugin assets in the packaged build
+Content/Collections/
+Content/Developers/
+Content/PN_GrassLibrary/
+Content/VigilanteContent/
+Content/WaterMaterials/
+Content/StarterContent/
+
+# Ignore Plugins build and temp folders
+Plugins/
+Plugins/**/Binaries
+Plugins/**/Intermediate
+Plugins/**/Content
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# Mac OS X
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Visual Studio
+.vs
+.vscode
+
+*.pri
+
